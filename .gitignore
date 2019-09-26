@@ -1,5 +1,4 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
-.idea/
 
 # python env
 venv/
@@ -10,6 +9,7 @@ react-frontend/yarn.lock
 
 # misc
 .DS_Store
+.idea
 .env
 
 # dependencies
