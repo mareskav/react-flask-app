@@ -1,23 +1,21 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
-./idea
+.idea/
 
 # python env
-/venv
-
-# dependencies
-/node_modules
-
-# testing
-/coverage
+venv/
 
 # production
-/react-frontend/build
-/react-frontend/yarn.lock
+react-frontend/build
+react-frontend/yarn.lock
 
 # misc
 .DS_Store
 .env
-/react-frontend/npm-debug.log*
-/react-frontend/yarn-debug.log*
-/react-frontend/yarn-error.log*
+
+# dependencies
+react-frontend/node_modules
+
+react-frontend/npm-debug.log*
+react-frontend/yarn-debug.log*
+react-frontend/yarn-error.log*
 
